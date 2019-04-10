@@ -1,4 +1,4 @@
-# uts-ti
+# VUE JS
 
 ## Project setup
 ```
