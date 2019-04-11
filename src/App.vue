@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <div class="col-12 pt-5">
-      <h2>N O V A L &nbsp&nbspO K T A V I O</h2>
+      <h2>N O V A L &nbsp;&nbsp;O K T A V I O</h2>
     </div>
     <nav class="navbar navbar-expand-lg sticky-top">
       <!-- <a class="navbar-brand" href="#">Photonesia</a> -->
