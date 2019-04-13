@@ -10,14 +10,14 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNav" style="justify-content: center;">
         <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+          <li class="nav-item">
+            <router-link class="nav-link" :to="{name: 'Home'}">HOME</router-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">GALLERY</a>
+            <router-link class="nav-link" :to="{name: 'Gallery'}">GALLERY</router-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">ABOUT</a>
+            <router-link class="nav-link" :to="{name: 'About'}">ABOUT</router-link>
           </li>
         </ul>
       </div>
@@ -35,6 +35,7 @@
       </div>
       <div class="col-xs-4 col-md-4 col-lg-4 px-4 mt-4 text-left">
         <h6><b>FIND ME</b></h6>
+        <img width="22" src="../public/image/instagram-logo.png" alt=""> novaloktavio
       </div>
     </div>
   </div>
@@ -46,6 +47,11 @@
 }
 .navbar ul li a{
   color: #2c3e50;
+}
+.router-link-exact-active{
+  background: #232323;
+  color: #fff !important;
+  border-radius: 23px;
 }
 .footer{
   background: #232323;
